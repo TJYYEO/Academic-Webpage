@@ -2,7 +2,7 @@
 This is my personal academic website.
 
 ## Preview locally
-
+In Settings, under Pages, check branch is Main, /(root).
 Open `index.html` in a browser.
 
 
