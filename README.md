@@ -1,0 +1,11 @@
+# Thomas Yeo — Academic Website
+This is my personal academic website.
+
+## Preview locally
+
+Open `index.html` in a browser.
+
+
+## Privacy
+
+The source CV is intentionally excluded from Git. The public site omits phone number, age, nationality, and street address.

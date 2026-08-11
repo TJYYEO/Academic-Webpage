@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 900" role="img" aria-labelledby="title desc">
+  <title id="title">Thomas Yeo profile placeholder</title>
+  <desc id="desc">A restrained monogram portrait placeholder with geological contour lines.</desc>
+  <rect width="760" height="900" fill="#e7ebe8"/>
+  <g fill="none" stroke="#b6c4c0" stroke-width="3" opacity=".9">
+    <path d="M-30 130c155-84 281 80 427-8s264-93 410-15"/><path d="M-22 181c154-82 280 79 429-8s263-91 405-14"/>
+    <path d="M-20 708c169-91 286 65 434-19s261-89 395-16"/><path d="M-18 761c170-92 287 63 436-20s260-87 392-15"/>
+  </g>
+  <circle cx="380" cy="347" r="145" fill="#fff" opacity=".8"/>
+  <path d="M179 744c29-161 105-239 201-239s172 78 201 239" fill="#fff" opacity=".8"/>
+  <path d="M80 850 680 50" stroke="#4e858d" stroke-width="15" opacity=".75"/>
+  <path d="M115 875 716 75" stroke="#fff" stroke-width="5" opacity=".9"/>
+  <text x="380" y="370" text-anchor="middle" fill="#3387a2" font-family="Questrial, sans-serif" font-size="78" letter-spacing="8">TY</text>
+</svg>
+
