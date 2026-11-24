@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
-  <title id="title">Stylized EBSD grain map</title><rect width="800" height="600" fill="#e9ece9"/>
+  <title id="title">Stylised EBSD grain map</title><rect width="800" height="600" fill="#e9ece9"/>
   <g stroke="#fff" stroke-width="7"><path d="M0 0h202l71 127-62 142L0 241z" fill="#8db1b5"/><path d="M202 0h245l-18 162-156-35z" fill="#c5d0bc"/><path d="M447 0h353v201l-143 67-228-106z" fill="#d7ae87"/><path d="M0 241l211 28 105 133-86 198H0z" fill="#d8c5a2"/><path d="M211 269l218-107 228 106-56 192-285-58z" fill="#789da2"/><path d="M657 268l143-67v399H601l0-140z" fill="#bec7d2"/><path d="M230 600l86-198 285 58v140z" fill="#c48d77"/></g>
 </svg>
 

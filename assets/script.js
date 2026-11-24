@@ -18,26 +18,28 @@ document.querySelectorAll('[data-year]').forEach((node) => {
   node.textContent = new Date().getFullYear();
 });
 
-const slides = Array.from(document.querySelectorAll('.slide'));
-const controls = Array.from(document.querySelectorAll('.slide-controls button'));
-const caption = document.querySelector('.slide-caption');
-let slideIndex = 0;
+document.querySelectorAll('.slideshow, .micrograph-slideshow').forEach((slideshow) => {
+  const slides = Array.from(slideshow.querySelectorAll('.slide'));
+  const controls = Array.from(slideshow.querySelectorAll('.slide-controls button'));
+  const caption = slideshow.querySelector('.slide-caption');
+  let slideIndex = 0;
 
-function showSlide(index) {
-  if (!slides.length) return;
-  slideIndex = (index + slides.length) % slides.length;
-  slides.forEach((slide, i) => slide.classList.toggle('active', i === slideIndex));
-  controls.forEach((control, i) => {
-    control.classList.toggle('active', i === slideIndex);
-    control.setAttribute('aria-pressed', String(i === slideIndex));
-  });
-  if (caption) caption.textContent = slides[slideIndex].dataset.caption || '';
-}
+  function showSlide(index) {
+    if (!slides.length) return;
+    slideIndex = (index + slides.length) % slides.length;
+    slides.forEach((slide, i) => slide.classList.toggle('active', i === slideIndex));
+    controls.forEach((control, i) => {
+      control.classList.toggle('active', i === slideIndex);
+      control.setAttribute('aria-pressed', String(i === slideIndex));
+    });
+    if (caption) caption.textContent = slides[slideIndex].dataset.caption || '';
+  }
 
-controls.forEach((control, index) => control.addEventListener('click', () => showSlide(index)));
-showSlide(0);
+  controls.forEach((control, index) => control.addEventListener('click', () => showSlide(index)));
+  showSlide(0);
 
-if (slides.length > 1 && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  window.setInterval(() => showSlide(slideIndex + 1), 5000);
-}
+  if (slides.length > 1 && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    window.setInterval(() => showSlide(slideIndex + 1), 5000);
+  }
+});
 

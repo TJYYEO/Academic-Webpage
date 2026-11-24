@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
-  <title id="title">Stylized digital outcrop model</title><rect width="800" height="600" fill="#ecebe5"/>
+  <title id="title">Stylised digital outcrop model</title><rect width="800" height="600" fill="#ecebe5"/>
   <path d="M42 469 164 168l174 105 126-151 292 317-86 102H135z" fill="#b4b0a1"/>
   <g fill="none" stroke="#f7f6f1" stroke-width="5"><path d="M88 420c182-124 383-29 613-46"/><path d="M72 459c188-124 397-25 650-43"/><path d="M121 368c153-100 341-31 533-44"/></g>
   <g fill="none" stroke="#4f7f84" stroke-width="3" opacity=".9"><path d="M42 469 164 168l174 105 126-151 292 317-86 102H135z"/><path d="m164 168 3 323m171-218-15 242m141-393 36 385"/></g>

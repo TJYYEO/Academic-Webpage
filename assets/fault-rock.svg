@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
-  <title id="title">Stylized ductile fault rock</title><rect width="800" height="600" fill="#e8e7e2"/>
+  <title id="title">Stylised ductile fault rock</title><rect width="800" height="600" fill="#e8e7e2"/>
   <g fill="none" stroke-linecap="round"><path d="M-40 505C145 390 246 215 442 172s254-55 405-136" stroke="#5b7f7f" stroke-width="60"/><path d="M-30 526C149 410 262 245 453 198s253-55 397-132" stroke="#d6d0bf" stroke-width="28"/><path d="M-30 541C153 427 271 277 467 222s248-58 392-130" stroke="#b56f45" stroke-width="7" stroke-dasharray="20 17"/>
   <path d="M-20 115c165-74 294 37 449-31s283-43 399-2" stroke="#b8c3bf" stroke-width="4"/><path d="M-18 154c166-75 295 36 450-32s282-42 398-1" stroke="#b8c3bf" stroke-width="4"/></g>
 </svg>
